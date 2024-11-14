@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(image/web-design-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: -100px;
+}
+
+.manubar{
+    background-color: #022358;
+    text-align: center;
+}
+
+.manubar ul{
+    display: inline-flex;
+    font-weight: bold;
+    list-style: none;
+    color:white
+}
+
+.manubar ul li {
+    width: 120px;
+    margin: 15px;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.manubar ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.active, .manubar ul li:hover{
+    background: #134ba1;
+    border-radius: 4px;
+}
+
+.sub-manu{
+    display:none
+}
+
+.manubar ul li:hover .sub-manu{
+    display: block;
+    position: absolute;
+    background:#022358;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.manubar ul li:hover .sub-manu ul{
+    display: block;
+    margin: 10px;
+}
+.manubar ul li:hover .sub-manu ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    background: transparent;
+    text-align: left;
+}
+.manubar ul li:hover .sub-manu ul li:last-child {
+    border-bottom: none;
+}
+.manubar ul li:hover .sub-manu ul li a:hover{
+    color:#134ba1;
+}
+.fa-angle-right{
+    float: right;
+}
+.sub-manu1{
+    display: none;
+}
+.hover-me:hover .sub-manu1{
+    position: absolute;
+    display:block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: #022358;
+}
