@@ -2,16 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
-body{
-    background-image: url(image/web-design-header.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    height: -100px;
+
 }
 
 .manubar{
@@ -23,14 +15,19 @@ body{
     display: inline-flex;
     font-weight: bold;
     list-style: none;
-    color:white
+    color:white;
+    padding-left: 15px;
+    margin-left: 70px;
 }
-
+/* .manubar ul .logo{
+    margin-right: 400px;
+} */
 .manubar ul li {
     width: 120px;
     margin: 15px;
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 15px;
+    /* padding-top: 30px; */
 }
 
 .manubar ul li a{
@@ -84,4 +81,349 @@ body{
     margin-top: -40px;
     margin-left: 140px;
     background: #022358;
+}
+
+.logo a{
+    font-size: 35px;
+    font-family: 600px;
+    color: white;
+    text-decoration: none;
+}
+
+   h1{
+     margin-top: -400px;
+     color: white;
+     font-size: 100px;
+     margin-left: 400px;
+   }
+
+.logo {
+    margin-top: -600px
+}
+
+.btn{
+    margin-left: 650px;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    background-color: #647DE0;
+    color: white;
+}
+.bnt{
+    margin-left: 50px;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    background-color: #647DE0;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.div-1{
+    margin-top: 100px;
+    margin-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    font-family: sans-serif;
+    border-radius: 25px;
+    color: white;
+    margin-left: 150px;
+    background-color: #022358;
+    font-size: 40px;
+    font-weight: bold;
+}
+.div-2{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-right: 1000px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+h3{
+  
+    font-size: 40px;
+}
+.span{
+    font-size: 20px;
+}
+.span-1{
+    font-size: 20px;  
+}
+
+.first-image{
+  float:right;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    margin-top: 60px;
+
+}
+
+.img{
+    float:right;
+    margin-right: 50px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.ntb{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    background-color: #647DE0;
+    color: white 
+}
+
+.div-3{
+    background-color: #F5F5F5 ;
+    height: 150px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.img-1{
+    margin-top: 10px;
+    margin-left: 30%;
+    float: left;
+}
+
+
+.title{
+    margin-top: 10px;
+    margin-left: 43.6%;
+    font-size: 50px;
+}
+.title-1{
+    margin-top: 40px;
+    margin-left: 45%;
+    font-size: 20px;
+    color: #1263FE;
+}
+
+.div-4{
+    float: left;
+    width: 20%;
+    margin-left: 25%;
+    /* width: 150px; */
+    padding: 10px;
+    border-right: 1px solid violet;
+    border-radius: 0;
+    /* background: transparent; */
+    text-align: left;
+}
+
+.div-5{
+    float: left;
+    width: 20%;
+    margin-left: 3%;
+    /* width: 150px; */
+    padding: 10px;
+    border-right: 1px solid violet;
+    border-radius: 0;
+    /* background: transparent; */
+    text-align: left;
+}
+
+.div-6{
+    float: left;
+    width: 10%;
+    margin-left: 75%;
+    margin-top: -640px;
+    /* width: 150px; */
+    padding: 10px;
+    /* border-right: 1px solid violet; */
+    border-radius: 0;
+    /* background: transparent; */
+    text-align: center;
+}
+
+.title-6{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title-item-1{
+    font-size: 20px;
+}
+
+.title-7{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.title-item-2{
+    font-size: 20px;
+    padding-right: -400px;
+    margin-top: -15px;
+}
+.Expert {
+    margin-left: 900px;
+    padding-top: 40px;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #000;
+}
+.Our {
+    margin-left:850px;
+    padding-top: 20px;
+}
+.Bangladesh {
+    margin-left: 300px;
+    color: tomato;
+}
+.learn{
+    color: #D75F5F;
+    font-size: 20px;
+    /* margin-left: 60px; */
+}
+
+.div-7{
+    background-color: #022358;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 45%;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+}
+.btn-1{
+    float: right;
+    margin-left: 850px;
+    margin-right: 90px;
+    margin-top:-60px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    background-color: #647DE0;
+    color: white;
+}
+
+.p-1{
+    color: black;
+    margin-top: 5%;
+    margin-left: 850px;
+}
+
+.p-2{
+  font-size: 20px;
+  margin-left: 700px;
+  margin-top: 10px;
+}
+
+.project{
+    margin-top: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.project-item{
+    margin-top: 20px;
+    padding-top: -30px;
+    float: left;
+    height: 300px;
+    width: 32%;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  
+    
+}
+
+.project-content {
+    background-color: #FAD465;
+}
+
+.div-8{
+    background-color: #022358;
+   width: 100%;
+   color: white;
+   font-size: 30px;
+   font-weight: bold;
+   font-family: sans-serif;
+   /* margin-left: 250px;
+   margin-right: 250px; */
+   margin-top: 60px;
+   padding-left: 250px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   border-radius: 10px
+}
+.contant{
+    font-size: 20px;
+}
+.btn-2{
+    float: right;
+    margin-left: 850px;
+    margin-right: 400px;
+    margin-top:-60px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    background-color: #647DE0;
+    color: white;
+}
+
+.p-4{
+    font-size: 40px;
+    font-weight: bold;
+  margin-left: 800px;
+  margin-top: 50px;
+}
+
+.div-9{
+float: left;
+width: 23%;
+margin-top: 50px;
+}
+.title-9{
+   
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 70px;
+
+}
+
+.title-item-6{
+    font-size: 20px;
+    padding-right: -400px;
+    margin-top: -15px;
 }
